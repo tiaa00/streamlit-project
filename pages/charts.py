@@ -83,13 +83,14 @@ with tab1:
 with tab2:
     # Group by AGE_GROUP and SEX
     distribution_df = df.groupby(["AGE_GROUP", "SEX"]).size().reset_index(name="Number of Cases")
+    distribution_df.columns = ['Age Group', 'Sex', 'Number of Cases']
 
     # Plot histogram
     fig3 = px.histogram(
         distribution_df,
-        x="AGE_GROUP",
+        x="Age Group",
         y="Number of Cases",
-        color="SEX",
+        color="Sex",
         barmode="group",
         title="Distribution of COVID-19 Cases by Gender and Age Group",
         color_discrete_sequence=px.colors.qualitative.Set2
