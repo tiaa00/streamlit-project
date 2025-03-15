@@ -35,7 +35,7 @@ with tab1:
     st.markdown(
         """
         <div style='height:100%; display:flex; align-items:flex-end;'>
-            <p>The bar chart represents the number of Covid-19 cases across different age groups. The highest number of cases is observed in the 30-39 and 40-49 age groups, with a gradual decline in older populations. Younger groups, especially 0-9 and 10-19, show significantly fewer cases. The trend suggests that middle-aged individuals were the most affected, possibly due to higher exposure in workplaces and social interactions. The number of cases decreases steadily after 50-59, indicating either lower exposure or increased precautions among older age groups..</p>
+            <p>The bar chart represents the number of Covid-19 cases across different age groups. The highest number of cases is observed in the 30-39 and 40-49 age groups, with a gradual decline in older populations. Younger groups, especially 0-9 and 10-19, show significantly fewer cases. The trend suggests that middle-aged individuals were the most affected, possibly due to higher exposure in workplaces and social interactions. The number of cases decreases steadily after 50-59, indicating either lower exposure or increased precautions among older age groups.</p>
         </div>
         """,
         unsafe_allow_html=True
